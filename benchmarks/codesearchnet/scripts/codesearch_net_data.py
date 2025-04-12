@@ -13,7 +13,7 @@ def create_random_record():
 
     # Get 100 random records
     sample_records = pd_records.sample(n=100000, random_state=42)
-    sample_records.to_csv("benchmarks/codesearchnet/data/csn_1lakh.csv", index=False)
+    sample_records[['code']].to_csv("benchmarks/codesearchnet/data/csn_1lakh.csv", index=False)
     print(sample_records.head())  # Optional: view the first few rows
 
 

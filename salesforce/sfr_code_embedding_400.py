@@ -88,7 +88,7 @@ class SfrCodeEmbedding400:
 
 
 def get_code_search_code_snippets():
-    code_search_net_dataset_path = "benchmarks/codesearchnet/data/csn_1lakh.csv"
+    code_search_net_dataset_path = "benchmarks/csn_10k.csv"
     records = pd.read_csv(code_search_net_dataset_path)
 
     # Get all values from the 'code' column

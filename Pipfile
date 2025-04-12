@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+datasets = "*"
+pandas = "*"
+psutils = "*"
+weaviate-client = "*"
+ujson = "*"
+openai = "*"
+tiktoken = "*"
+transformers = "*"
+torch = "*"
+packaging = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
